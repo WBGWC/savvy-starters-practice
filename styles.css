@@ -1,0 +1,20 @@
+html {
+  --primary-color: #42A5F5;
+  --secondary-color: #64FFDA;
+  --text-primary-color: #E53935;
+  --text-secondary-color: rgb(124, 77, 255);
+}
+
+body {
+  background: url(https://source.unsplash.com/random/400x400);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center right-;
+  height: 100vh;
+}
+
+
+h1 {
+  color: var(--primary-color);
+  text-align: center;
+}
