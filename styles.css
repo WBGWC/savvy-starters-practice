@@ -9,12 +9,33 @@ body {
   background: url(https://source.unsplash.com/random/400x400);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center right-;
+  background-position: center right;
+  font-family: "PT Sans", sans-serif;
+  font-size: 10px;
   height: 100vh;
 }
 
-
 h1 {
   color: var(--primary-color);
+  text-align: center;
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 11.089em;
+}
+
+h3 {
+  font-size: 6.854em;
+}
+
+li,
+p {
+  font-size: 4.236em;
+}
+
+header {
+  background-color: var(--secondary-color);
+  padding: 1rem;
   text-align: center;
 }
